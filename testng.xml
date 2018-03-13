@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PracticeSuite">
+  <test name="PracticeTest">
+  <parameter name="test" value="testingpass">
+  </parameter>
+  <groups>
+  <run>
+  <include name ="functional"></include>
+  </run>
+  </groups>
+   <classes>
+   <class name = "demopackage.demoTestNG"> 
+   <methods>
+   <include name="test1"> </include>
+   </methods>
+   </class>
+   <class name = "demopackage.demoTestNG1"></class>
+   </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
